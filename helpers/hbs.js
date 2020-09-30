@@ -56,9 +56,9 @@ module.exports= {
     },
     writeTracker: (created, updated) => {
         if(created === updated) {
-            return `<span class="card-title"><small>created: </small>{{formatDate createdAt ''}}</span>`;
+            return `<span class="card-title"><small>created: </small>${moment(created).calendar()}</span>`;
         }
-       return ` <span class="card-title"><small>created: </small>{{formatDate createdAt ''}}</span>
-        <span class="card-title"><small>updated: </small>{{formatDate updateddAt ''}}</span>`
+       return ` <span class="card-title"><small>created: </small>${moment(created).calendar()}</span>
+        <span class="card-title"><small>updated: </small>${moment(updated).calendar()}</span>`
     }
 }

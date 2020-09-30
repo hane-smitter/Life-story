@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@300&display=swap');
+
+p {
+    margin: 10px 0 !important;
+}
+strong, b {
+    font-weight: 600 ! important;
+}
+
+.login-container {
+    width: 400px;
+    margin-top: 50px;
+    text-align: center;
+}
+.katikati {
+    display: grid;
+    place-items: center;
+    font-family: 'Grandstander', cursive, sans-serif;
+}
+.huge-font {
+    font-size: 12rem;
+    font-weight: 900;
+}
+.fa-small {
+    font-size: 16px !important;
+}
+.btn-float {
+    float: left;
+    margin-right: 10px;
+}
+.img-small  {
+    width: 180px;
+}
